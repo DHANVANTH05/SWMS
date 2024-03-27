@@ -1,0 +1,12 @@
+Due to the substantial increase in urban population leading to a significant rise in trash production, waste management poses a challenge in metropolitan areas. Conventional trash management techniques are expensive and ineffective.
+These issues can be resolved by making efficient use of available resources, using (IoT) internet of things technologies, utilizing deep learning models. 
+The primary aim of this article is to create an intelligent waste management system utilizing Internet of Things (IoT) devices coupled with deep learning algorithms. 
+This device makes bin status monitoring easier and improves trash segregation procedures. 
+The SSD MobileNetV2 Quantized model has been utilized with the purpose of waste classification and categorization.
+It underwent training on a dataset that encompassed various types of waste, such as batteries, cardboard, brown glass, organic waste, footwear, plastic, paper, metal, green glass, white glass, trash, and clothing. 
+This model is integrated into TensorFlow Lite and deployed on a Raspberry Pi 4 along with a camera module. 
+Once the waste objects are detected by the camera, a servo motor attached to a plastic board classifies them into the appropriate compartments using the classification information supplied by the model.
+The ultrasonic sensor keeps track of the percentage of waste filling up the bin, meanwhile, a LoRa module embedded within the smart bin sends the bin's status to a LoRa receiver. 
+This model is installed on a Raspberry Pi 4 along with a camera module and incorporated into TensorFlow Lite. 
+The servo motor, based on the model's classification, is affixed to a plastic board, effectively partitioning it into the correct divisions. 
+A LoRa module mounted on the smart bin transmits the bin's status to a LoRa receiver, while the ultrasonic sensor tracks the level of garbage within the bin. 
